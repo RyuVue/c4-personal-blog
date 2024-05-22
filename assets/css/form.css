@@ -1,0 +1,21 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(20, 104, 230);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+}
