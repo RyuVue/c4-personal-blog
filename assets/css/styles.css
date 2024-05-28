@@ -1,0 +1,8 @@
+.title1 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: bisque;
+}
