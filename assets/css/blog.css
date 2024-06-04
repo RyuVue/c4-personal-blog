@@ -4,6 +4,17 @@
     padding: 20px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
 body.dark-mode {
     background-color: black;
     color: rgb(0, 174, 255);

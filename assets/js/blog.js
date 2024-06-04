@@ -9,7 +9,15 @@ function displayBlogPosts() {
       const titleElement = document.createElement('h2');
       titleElement.textContent = post.title;
       postElement.appendChild(titleElement);
+
+      const contentElement = document.createElement('p');
+      contentElement.textContent = post.content;
+      postElement.appendChild(contentElement);
       
+      const authorElement = document.createElement('p');
+      authorElement.textContent = `by ${post.username}`;
+      postElement.appendChild(authorElement);     
+
       postsContainer.appendChild(postElement);
     });
 }
