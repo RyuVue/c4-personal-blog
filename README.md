@@ -16,4 +16,4 @@ The goal is to build a functioning blog with all my obtained knowledge so far wi
 
 [Github](https://github.com/RyuVue/c4-personal-blog)
 
-[deployed aplication](---)
+[deployed application](https://ryuvue.github.io/c4-personal-blog/blog.html)
